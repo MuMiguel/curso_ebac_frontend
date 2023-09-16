@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(83, 196, 181);
+}
+
+.container {
+    height: 450px;
+    width: 330px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5 );
+    padding: 16px;
+    overflow-y: auto;
+}
+
+#taskInput {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(94, 94, 94);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#taskInput::placeholder {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: #eee;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+
+ul .fa-check, .fa-trash {
+    position: absolute;
+    cursor: pointer;
+}
+
+ul .fa-check {
+    right: 40px;
+    color: green;
+}
+
+ul .fa-trash {
+    right: 10px;
+    color: #ff0033;
+}
+
+ul .checked {
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
