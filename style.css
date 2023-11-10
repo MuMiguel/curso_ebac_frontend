@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: -webkit-linear-gradient(bottom, #005bea, #00c6fb);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20rem;
+    gap: 80px;
+
+}
+
+.join-img img {
+    width: 520px;
+    
+}
+
+.col h2 {
+    padding-bottom: 2rem;
+}
+
+form {
+    width: 20rem;
+}
+
+.form-label {
+    font-size: 2.2rem;
+}
+
+.form-control {
+    width: 30rem;
+    padding: .5rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+}
+
+.form-check {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.form-check-label {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn {
+    width: 10rem;
+    font-size: 1.5rem;
+}
+
